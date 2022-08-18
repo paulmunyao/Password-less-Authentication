@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'AUthenticate',
     'rest_framework_simplejwt',
     'rest_framework',
-    'djoser',  
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -63,7 +63,7 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
-   'AUTH_HEADER_TYPES': ('JWT',),
+    'AUTH_HEADER_TYPES': ('JWT',),
 }
 
 ROOT_URLCONF = 'Auth.urls'

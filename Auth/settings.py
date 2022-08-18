@@ -51,10 +51,7 @@ MIDDLEWARE = [
 ]
 
 REST_FRAMEWORK = {
-   
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    
-    ...
+    'rest_framework_simplejwt.authentication.JWTAuthentication',
 }
 
 ROOT_URLCONF = 'Auth.urls'

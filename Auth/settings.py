@@ -62,6 +62,8 @@ REST_FRAMEWORK = {
 
 }
 
+
+
 ROOT_URLCONF = 'Auth.urls'
 
 TEMPLATES = [

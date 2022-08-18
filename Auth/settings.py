@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'AUthenticate',
     'rest_framework_simplejwt',
-    
     'rest_framework',
     'djoser',
     

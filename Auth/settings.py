@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'AUthenticate',
     'rest_framework_simplejwt',
-    
+    'django.contrib.auth',
+    (...),
+    'rest_framework',
+    'djoser',
+    (...),
 ]
 
 MIDDLEWARE = [

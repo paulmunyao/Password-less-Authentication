@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'AUthenticate',
     'rest_framework_simplejwt',
     'django.contrib.auth',
-    (...),
+    
     'rest_framework',
     'djoser',
     (...),

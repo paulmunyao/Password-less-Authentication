@@ -19,7 +19,7 @@ from django.urls import include, path
 #     TokenObtainPairView,
 #     TokenRefreshView,
 # )
-# from rest_framework_simplejwt.views import TokenVerifyView
+from rest_framework_simplejwt.views import TokenVerifyView
 
 urlpatterns = [
     path('admin/', admin.site.urls),

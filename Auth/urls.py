@@ -26,5 +26,5 @@ urlpatterns = [
     path('', include('AUthenticate.urls')),
     path('api/v1', include('djoser.urls')),
     path('api/v1', include('djoser.urls.jwt')),
-    
+
 ]

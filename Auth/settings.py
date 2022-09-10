@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'AUthenticate',
     'rest_framework_simplejwt',
     'rest_framework',
-    
     'corsheaders',
 ]
 

@@ -23,6 +23,7 @@ distro==1.4.0
 distro-info===0.23ubuntu1
 Django==4.0.5
 django-cors-headers==3.13.0
+django-filter==22.1
 django-templated-mail==1.1.1
 djangorestframework==3.13.1
 djangorestframework-simplejwt==4.8.0

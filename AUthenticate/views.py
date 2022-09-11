@@ -14,13 +14,3 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ('id', 'username')
 
 
-        model = get_user_model()
-        fields = ('id', 'username')
-
-
-        model = get_user_model()
-        fields = ('id', 'username')
-
-
-class UserAPIView(RetrieveAPIView):
-

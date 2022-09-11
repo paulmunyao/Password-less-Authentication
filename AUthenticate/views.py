@@ -11,5 +11,10 @@ class UserSerializer(serializers.ModelSerializer):
         model = get_user_model()
         fields = ('id', 'username')
 
+class UserAPIView(RetrieveAPIView):
+    permission_classes = (IsAuthenticated,)
+    serializer_class = UserSerializer
 
+    def get_object(self):
+        return self.request.user
 

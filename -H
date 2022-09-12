@@ -1,2 +1,14 @@
---_curl_--"username": "mando"
+HTTP/1.1 400 Bad Request
+Date: Mon, 12 Sep 2022 00:10:51 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/json
+Vary: Accept, Origin
+Allow: POST, OPTIONS
+X-Frame-Options: DENY
+Content-Length: 79
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+
+{"username":["This field is required."],"password":["This field is required."]}--_curl_--"username": "mando"
 --_curl_-- "password": "thisistheway"
